@@ -1,5 +1,5 @@
 <?php
-$t = 0;
+$t = rand(-20,20);
 print "<table style=\"border:solid;\">";
 for ($i = 20; $i > -20; $i--) {
     $style = $t > $i ? 'width:30px; background:red' : 'width:30px; background:blue';
